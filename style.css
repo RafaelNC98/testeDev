@@ -1,0 +1,150 @@
+/* Global resets */
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
+
+/* Fonts */
+h1 {
+    font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.container {
+    margin: 2em auto;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #eaeaea;
+}
+
+.orange {
+    color: #EF5F3C;
+}
+
+.text {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+.progress {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eaeaea;;
+    height: 14px;
+}
+
+.percent {
+    position: relative;
+    top: 0;
+    width: 67.22%;
+    background-color:  #EF5F3C;
+    height: 14px;
+
+}
+
+.btn {
+    width: 45%;
+    border: none;
+    background-color: #1CBC2C;
+    padding: 8px 14px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.money {
+    width: 45%;
+    padding: 8px 14px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+
+}
+
+.donation {
+    display: flex;
+}
+
+.form {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.link {
+    margin-top: 10px;
+}
+
+.link  a{
+    text-decoration: none;
+    color: #20A1D4;
+    font-style: italic;
+}
+
+.btn-2 {
+    margin: 2em auto;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-3 {
+    width: 45%;
+    border: none;
+    background-color: whitesmoke;
+    padding: 8px 14px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #777;
+    font-weight: 600;
+    border: 1px solid #eaeaea;
+}
+
+.balao2{
+    display:flex;
+    background: #424242;
+    border-radius: 2px;
+    max-width: 350px;
+    height: 50px;
+    left: 32%;
+    top: 22px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center !important;
+}
+.balao2:after{
+
+    content: "";
+
+    width: 0;
+    height: 0;
+
+    position: absolute;
+
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #424242;
+
+    bottom: -10px;
+    left: 80%;
+}
+
+
+
+/* COLORS: 
+    blue: #20A1D4;
+    green: #1CBC2C;
+    orange: #EF5F3C;
+    black: #424242;
+    grey: #777;
+    light grey: #eaeaea;
+*/
